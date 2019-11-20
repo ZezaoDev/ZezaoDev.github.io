@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Game Club - Fórum</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+	<nav class="barra-navegacao navbar justify-content-center navbar-expand-sm">
+	  <!-- Brand/logo -->
+	  <a class="navbar-brand" href="home.html">
+	    <img src="img/gameclub-logoblack.png" alt="logo" style="width:140px;">
+	  </a><br>
+
+
+	  <!-- Links -->
+	  <ul class="navbar-nav">
+	    <li class="nav-item snes-yellow">
+	      <a class="nav-link" href="#">Perfil</a>
+	    </li>
+	    <li class="nav-item snes-red">
+	      <a class="nav-link" href="#">Notificações</a>
+	    </li>
+	    <li class="nav-item snes-green">
+	      <a class="nav-link" href="#">Notícias</a>
+	    </li>
+	    <li class="nav-item snes-blue">
+	      <a class="nav-link" href="#">Configurações</a>
+	    </li>
+	  </ul>
+
+	  <!-- Busca -->
+	  <div class="container d-flex justify-content-end">
+		  <form class="form-inline">
+			<input class="form-control mr-sm-2" required type="search" placeholder="Busca do gameclub">
+			<button class="btn btn-dark my-sm-0" type="submit">Pesquisar</button>
+	      </form>
+      </div>
+	</nav>
+
+	<!-- Conteúdo -->
+	<div class="container-fluid row">
+		<div class="col-2">
+			coluna 1
+		</div>
+		<!-- Área de postagem -->
+		<div class="col-8">
+			<div class="area-postagem container">
+				<!-- Escrever postagem -->
+				<div class="escrever">
+					<div class="icone" style="float: left;">
+						<img src="img/icon.png" width="50px" class="img-fluid">
+					</div>
+					<form class="form-inline">
+							<textarea class="col-sm" required maxlength="140" cols="50" rows="3" placeholder="O que você quer jogar hoje?"></textarea>
+							<button class="btn btn-dark container-fluid botao" type="submit">Enviar mensagem</button>
+					</form>
+				</div>
+
+
+				<!-- Postagens -->
+				<div class="media mt-3 postagem">
+					<img class="m-3" src="img/icones-perfil/zezaomotoboy.jpeg" width="64" alt="foto">
+					<div class="media-body">
+						<h5>//ZezaoMotoboy <span class="badge badge-warning">Moderador</span></h5>
+						<p>
+						Beibe, beibe, do biruleibe, leibe? Beibe, beibe, do biruleibe, leibe? Beibe, beibe, do biruleibe, leibe? Beibe, beibe, do biruleibe, leibe? Beibe, beibe, do biruleibe, leibe? Beibe, beibe, do biruleibe, leibe?.
+						</p>
+					</div>
+				</div>
+				<div class="media mt-3 postagem">
+					<img class="m-3" src="img/icones-perfil/gokupm.jpeg" width="64" alt="foto">
+					<div class="media-body">
+						<h5>//GokuPm <span class="badge badge-danger">Beta</span></h5>
+						<p>
+						Tem que resolver isso ai talkei?
+						</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="col-2">
+			coluna 3
+		</div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+/* ====== ESTILIZAÇÃO GERAL ======= */
+
+* {
+	/*border: solid gray 1px;*/
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+@font-face {
+     font-family: mollen;
+     src: url('Mollen.otf');
+}
+.center {
+	text-align: center;
+}
+/* ====== BACKGROUND LEAGUE OF LEGENDS ====== */
+
+.background-estrelas{
+	background: url("../img/bg_estrelas.jpg");
+	background-size: cover;
+	position: absolute;
+	top: -1vh;
+	left: -1vw;
+	width: 102vw;
+	height: 102vh;
+}
+
+.front-teemo{
+	background: url("../img/teemo.png");
+	background-size: cover;
+	position: absolute;
+	margin: auto;
+	bottom: 0vh;
+	right: -1vw;
+	width: 30%;
+	padding-bottom: 30%;
+}
+
+.shake-vertical{
+	-webkit-animation: shake-vertical 20s linear 1s infinite both;
+	        animation: shake-vertical 20s linear 1s infinite both;
+}
+@-webkit-keyframes shake-vertical{0%,100%{-webkit-transform:translateY(0);transform:translateY(0)}10%,30%,50%,70%{-webkit-transform:translateY(-8px);transform:translateY(-8px)}20%,40%,60%{-webkit-transform:translateY(8px);transform:translateY(8px)}80%{-webkit-transform:translateY(6.4px);transform:translateY(6.4px)}90%{-webkit-transform:translateY(-6.4px);transform:translateY(-6.4px)}}@keyframes shake-vertical{0%,100%{-webkit-transform:translateY(0);transform:translateY(0)}10%,30%,50%,70%{-webkit-transform:translateY(-8px);transform:translateY(-8px)}20%,40%,60%{-webkit-transform:translateY(8px);transform:translateY(8px)}80%{-webkit-transform:translateY(6.4px);transform:translateY(6.4px)}90%{-webkit-transform:translateY(-6.4px);transform:translateY(-6.4px)}}
+
+/* ====== ÁREA DE LOGIN ====== */
+
+.login{
+	position: absolute;
+	background-color: white;
+	margin: 100px;
+	border-radius: 7px;
+	border: solid black 1px;
+	padding: 30px;
+}
+.login h1{
+	margin: auto;
+	font: 25px mollen, Arial, Tahoma, Sans-serif;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+form{
+	margin: 10px;
+}
+form input{
+	text-align: left;
+	margin: auto;
+	margin-bottom: 10px;
+}
+.btn{
+	margin: auto;
+	margin-bottom: 10px;
+}
+.btn a{
+	color: white;
+}
+.btn a:hover{
+	text-decoration: none;
+	color: white;
+}
